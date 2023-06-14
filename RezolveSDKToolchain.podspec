@@ -10,4 +10,7 @@ Pod::Spec.new do |spec|
     spec.license = { :type => 'Proprietary' }
     spec.source = { :http => 'https://rezolve.com' }
     spec.dependency 'RezolveSDK'
+    spec.subspec 'RezolveSDKToolchain' do |ss|
+        ss.source_files = ['Sources/**/*.{swift}']
+    end
 end

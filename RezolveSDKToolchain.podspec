@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|  
     spec.name = 'RezolveSDKToolchain'
-    spec.version = '1.1.3'
+    spec.version = '1.0.0'
     spec.swift_version = '5.0'
     spec.ios.deployment_target = '13.0'
     spec.platform = :ios
